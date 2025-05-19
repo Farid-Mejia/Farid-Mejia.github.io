@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio Farid Mejia</title>
+
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- jQuery (necesario para tu script enlaces.js) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+  <!--script-->
+  <script src="Script/enlaces.js" defer></script>
+  <script src="Script/historial.js" defer></script>
+  <script src="Script/alertas.js" defer></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="CSS/estilosAdicionales.css">
+  <link rel="shortcut icon" href="imgs/Captura de pantalla 2025-04-27 221914.jpg">
+</head>
+
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow" id="barraNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#history">Historial</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home" class="py-5 text-center scale-up-top ">
+    <div class="container">
+      <h1 class="display-4 text-white tracking-in-contract">Bienvenido a mi Portafolio</h1>
+      <h4>Autor: Farid Sebastian Mejia Chamana</h4>
+      <a class="btn btn-secondary m-2 vibrate shake-left-right "
+        href="https://1drv.ms/w/c/16b2243148ddcc68/EScqkCQAQs1OuQfxJAs906kBECyJwSFx6JLlo-53PUpg3w?e=AxgZkN"
+        target="_blank">Clic para ver mi curriculum</a>
+      <p class="lead tracking-in-expand-forward-top" id="descripHome">Desarrollador Web Frontend & Back End con interés en crear soluciones útiles.</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 shadow p-3 text-center rounded jello-horizontal" id="tituloMisProyectos">Mis Proyectos</h2>
+      <div class="row g-4" id="listProyectos">
+
+        <!-- Ejemplo de tarjeta de proyecto -->
+        <div class="col-sm-6 col-lg-4 shadow-drop-center">
+          <div class="card h-100">
+            <img src="../PORTAFOLIO/imgs/EstacionamientoCibertec.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Estacionamientos Cibertec Independencia</h5>
+              <p class="card-text">App desarrollada con Java Web, utiizando el framework Spring
+                para diseñar un sistema para que un vigilante registre ingreso, asigne lugar y
+                registre la salida a los estudiantes o docentes que ingresan a la institución.</p>
+              <a href="#" class="btn btn-info " id="BTN1">Ver proyecto en GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="card h-100">
+            <img src="../PORTAFOLIO/imgs/ProyectoSupervisor.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">App Android basica de Supervisores</h5>
+              <p class="card-text">Aplicacion para registrar un supervisor en la memoria
+                del dispositivo, revisarlo los datos guardados. Ademas de la animación
+                predictiva del gesto retroceder en Android.</p>
+              <h6 class="text-danger-emphasis">En proceso</h6>
+              <!--<a href="#" class="btn btn-info " id="BTN2">Ver proyecto en GitHub</a>-->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-lg-4 shadow-drop-center">
+          <div class="card h-100">
+            <img src="../PORTAFOLIO/imgs/Permisos Laborales.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h5 class="card-title">Permisos Laborales</h5>
+              <p class="card-text">App desarrollada con Java Web, utiizando el framework Spring
+                para crear un sistema que permita a los trabajadores solicitar un permiso laboral
+                segun la necesidad sin depender de papeleo innecesario y agilizando el proceso.</p>
+              <a href="#" class="btn btn-info " id="BTN3">Ver proyecto en GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Educación -->
+  <section id="education" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 shadow p-3 text-center rounded jello-horizontal">Educación</h2>
+
+      <ul class="list-group list-group-flush" id="sectionEdu">
+        <li class="list-group-item">
+          <h5>Instituto Cibertec</h5>
+          <p>Computación e Informatica (2022-Actualidad)</p>
+          <a id="btnCertiCiber1" class="shadow btn btn-sm my-button"
+            href="https://1drv.ms/b/c/16b2243148ddcc68/ESYSVp7zfUdPl1qyRGYGSk4BXTs6dSBMYxkcF0kSLMq-MA?e=yV3OTd"
+            target="_blank">Certificado Modular 1</a>
+          <a id="btnCertiCiber2" class="shadow btn btn-sm my-button"
+            href="https://1drv.ms/b/c/16b2243148ddcc68/EVKDdhPfxQpNuN3i8dx3AbUBwhtUOhUlJKtb7fS2-xOu5A?e=hXHaqg"
+            target="_blank">Certificado Modular 2</a>
+
+        </li>
+
+        <li class="list-group-item">
+          <h5>Vanzys English</h5>
+          <p>Ingles basico 12 (2024-09-02 - 2024-09-30)</p>
+          <a id="btnCertiEnglish" class="shadow btn btn-sm my-button"
+            href="https://1drv.ms/b/c/16b2243148ddcc68/EYyDJdfQmztOvE-zfMue0M0BayGRFI2C00sZG8ruNvcNvQ?e=oU2zUt"
+            target="_blank">BASIC ENGLISH</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 shadow p-3 text-center rounded jello-horizontal">Datos de Contacto</h2>
+      <div class="row justify-content-center" id="sectionContac">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Email: </strong>farid.mejia.tj@gmail.com</li>
+            <!--<li class="list-group-item"><strong>Teléfono:</strong> +51 987 654 321</li>-->
+            <li class="list-group-item"><strong>LinkedIn:</strong> <a
+                href="https://www.linkedin.com/in/farid-mejia-763692344/" target="_blank">Linkedin FaridMejia</a></li>
+            <li class="list-group-item"><strong>GitHub:</strong> <a href="https://github.com/Farid-Mejia"
+                target="_blank">github.com/Farid Mejia</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="history" class="py-5">
+    <video autoplay muted loop class="fondoEStrellado">
+      <source src="videos/estrellasMoviendose.mp4">
+      Si logras ver esto es por que tu navegador no soporta HTML5. :d
+    </video>
+    <div class="container" id="contHistorial">
+      <h2 class="mb-4 shadow p-3 text-center rounded shadow-drop-center" id="historialTitulo">Historial de Visitas</h2>
+      <h7 class="text-end tracking-in-contract">Se guarda en el dispositivo, no se envían datos a otro sitio.</h7>
+      <hr>
+      <!-- Formulario CRUD -->
+      <form id="entryForm" class="row g-3 mb-4">
+        <div class="col-md-6">
+          <label for="dateTimeInput" class="form-label">Fecha y Hora</label>
+          <input type="datetime-local" id="dateTimeInput" class="form-control" required>
+        </div>
+        <div class="col-md-6 align-self-end">
+          <button type="submit" class="btn btn-success shadow-drop-center">Agregar Entrada</button>
+        </div>
+        <div id="alertContainer" class="position-fixed top-0 start-50 translate-middle-x mt-3" style="z-index: 1055;">
+        </div>
+      </form>
+      <!-- Tabla de entradas -->
+      <div class="table-responsive">
+        <table class="table table-striped" id="entriesTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Fecha y Hora</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Editar --> 
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">Editar Entrada</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="editId">
+          <div class="mb-3">
+            <label for="editDateTime" class="form-label">Fecha y Hora</label>
+            <input type="datetime-local" id="editDateTime" class="form-control">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" id="saveEdit">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS & dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
+</body>
+
+</html>
