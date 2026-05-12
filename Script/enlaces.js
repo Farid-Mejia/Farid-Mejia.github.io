@@ -4,6 +4,7 @@
 const botones = [
    { id: 'btnCertiCiber1', url: 'https://1drv.ms/b/c/16b2243148ddcc68/ESYSVp7zfUdPl1qyRGYGSk4BXTs6dSBMYxkcF0kSLMq-MA?e=yV3OTd' },
    { id: 'btnCertiCiber2', url: 'https://1drv.ms/b/c/16b2243148ddcc68/EVKDdhPfxQpNuN3i8dx3AbUBwhtUOhUlJKtb7fS2-xOu5A?e=hXHaqg' },
+   { id: 'btnCertiCiber3', url: 'https://1drv.ms/b/c/16b2243148ddcc68/IQBGDp9pd0fOSqFHJJbqcevVAaSut-AAfWm0TKQpN_wMXbQ?e=y1fUNM' },
    { id: 'btnCertiEnglish', url: 'https://1drv.ms/b/c/16b2243148ddcc68/EYyDJdfQmztOvE-zfMue0M0BayGRFI2C00sZG8ruNvcNvQ?e=oU2zUt' },
    { id: 'BTN1', url: 'https://github.com/Farid-Mejia/SistemaEstacionamientoCibertec'},
    { id: 'BTN2', url: ''},
